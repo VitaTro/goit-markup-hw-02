@@ -1,7 +1,6 @@
 
 :root {
-  --body-fonts:  'Roboto', sans-serif;
-  --line-height: 1.5rem;
+ 
   --main-section:var(--SLATE, #434455);
   --brand-color: var(--IRIS, #4D5AE5);
   --body-color:var(--WHITE, #FFF);
@@ -10,6 +9,8 @@
 }
 body {
     background: var(--body-color);
+   --body-fonts:  'Roboto', sans-serif;
+  --line-height: 1.5rem;
 }
 
 .title {
