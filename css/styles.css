@@ -4,11 +4,12 @@
   --body-color:var(--WHITE, #FFF);
     --primary-color:var(--NAVY-BLUE, #2E2F42);
     --contact-color: var(--CLOUD, #F4F4FD);
+  --hover-menu:var(#404bbf);
 }
 body {
     background: var(--body-color);
    --body-fonts:  'Roboto', sans-serif;
-  --line-height: 1.5rem;
+  color:var(--primary-color)
 }
 
 .title {
@@ -71,4 +72,17 @@ color: var(--body-color);
 .portfolio-button:hover {
 background: var(--brand-color);
 color: var(--body-color);
+}
+.contact {
+    font-style: normal;
+}
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+.menu:hover {
+color: var(--hover-menu);
 }
