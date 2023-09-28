@@ -1,6 +1,4 @@
-
 :root {
- 
   --main-section:var(--SLATE, #434455);
   --brand-color: var(--IRIS, #4D5AE5);
   --body-color:var(--WHITE, #FFF);
@@ -20,7 +18,6 @@ body {
 }
 .link {
     text-decoration: none;
-    list-style: none;
 }
 
 .text {
@@ -39,9 +36,10 @@ body {
 }
 .webstudio {
     color: var(--brand-color);
-font-family: Raleway,sans-serif;
+font-family: Raleway, sans-serif;
 font-size: 1.125rem;
-font-style: normal;
+line-height: 1.3125rem;
+letter-spacing: 0.03375rem;
 font-weight: 800;
 text-transform: uppercase;
 }
