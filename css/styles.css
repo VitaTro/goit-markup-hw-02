@@ -6,12 +6,6 @@
     --contact-color: var(--CLOUD, #F4F4FD);
   --hover-menu:var(#404bbf);
 }
-body {
-    background: var(--body-color);
-   --body-fonts:  'Roboto', sans-serif;
-  color:var(--primary-color)
-}
-
 .title {
     color: var(--primary-color);
     font-weight: 500;
