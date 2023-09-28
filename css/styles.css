@@ -1,132 +1,75 @@
-body {
-font-family: 'Roboto', sans-serif;
-}
+
 :root {
-    background: var(--WHITE, #FFF);
-    background: var(--NAVY-BLUE, #2E2F42);
-    color: var(--IRIS, #4D5AE5);
-    color: var(--SLATE, #434455);
-    color: var(--CLOUD, #F4F4FD);
-    background: var(--OCEAN, #404BBF);
+  --body-fonts:  'Roboto', sans-serif;
+  --line-height: 1.5rem;
+  --main-section:var(--SLATE, #434455);
+  --brand-color: var(--IRIS, #4D5AE5);
+  --body-color:var(--WHITE, #FFF);
+    --primary-color:var(--NAVY-BLUE, #2E2F42);
+    --contact-color: var(--CLOUD, #F4F4FD);
 }
-.webstudio {
-    color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway, sans-serif;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 800;
-letter-spacing: 0.03375rem;
-text-transform: uppercase;
+body {
+    background: var(--body-color);
 }
-.web {
-    color: var(--IRIS, #4D5AE5);
-    font-family: Raleway, sans-serif;
-    font-size: 1.125rem;
+
+.title {
+    color: var(--primary-color);
+    font-weight: 500;
     font-style: normal;
-    font-weight: 800;
-    letter-spacing: 0.03375rem;
-    text-transform: uppercase;
 }
-a {
+.link {
     text-decoration: none;
-} 
-ul{
     list-style: none;
 }
-.button {
-    display: inline-flex;
-align-items: flex-start;
-gap: 0.625rem;
-border-radius: 0.25rem;
-background: var(--IRIS, #4D5AE5);
- color: var(--WHITE, #FFF);
-font-size: 1rem;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5rem;
-letter-spacing: 0.04rem;
-}
-.menu {
-    text-decoration: none;
-    color: var(--NAVY-BLUE, #2E2F42);
-font-size: 1rem;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5rem;
-letter-spacing: 0.02rem;
-}
 
-.item {
-    background: var(--NAVY-BLUE, #2E2F42);
-color: var(--WHITE, #FFF);
+.text {
+    font-weight: 400;
+    color: var(--main-section);
+    font-style: normal;
 }
-.headline-main {
-    color: var(--WHITE, #FFF);
-text-align: center;
-    font-size: 3.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: 3.75rem;
-letter-spacing: 0.07rem;
-width: 31rem;
+.text-footer {
+    color: var(--contact-color);
+
 }
-.str {
-    display: none;
+.head-title {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-style: normal;
 }
-.strategy-header {
-    color: var(--NAVY-BLUE, #2E2F42);
-    
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5rem;
-letter-spacing: 0.025rem;
-}
-.strategy-text {  
-    color: var(--SLATE, #434455);  
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5rem; /* 150% */
-letter-spacing: 0.02rem;
-}
-.item-footer {
-    background: var(--NAVY-BLUE, #2E2F42);
-       color: var(--WHITE, #FFF);
-   }
-   .studio-footer {
-    color: var(--CLOUD, #F4F4FD);
-font-family: Raleway;
+.webstudio {
+    color: var(--brand-color);
+font-family: Raleway,sans-serif;
 font-size: 1.125rem;
 font-style: normal;
 font-weight: 800;
-line-height: 1.3125rem;
-letter-spacing: 0.03375rem;
 text-transform: uppercase;
-   }
-   .footer-text {
-    color: var(--CLOUD, #F4F4FD);
-    font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5rem;
-letter-spacing: 0.02rem;
 }
- .team {
-    background: var(--CLOUD, #F4F4FD);
- }
- .portfolio-button {
-    background: var(--CLOUD, #F4F4FD);
-    color: var(--IRIS, #4D5AE5);
-    font-size: 1rem;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5rem;
-letter-spacing: 0.04rem;
-display: flex;
+.studio {
+    color: var(--primary-color);
+}
+.footer-studio {
+    color: var(--contact-color);
+}
+.footer {
+    background: var(--primary-color);
+}
+.item {
+background: var(--main-section);
+}
+.button {
+background: var(--brand-color);
+color: var(--body-color);
+}
+.headline-main {
+    color: var(--body-color);
+    font-weight: 700;
+    font-style: normal;
+}
+.portfolio-button {
+    background: var(--contact-color);
+    color:var(--brand-color)
 }
 .portfolio-button:hover {
-    background: var(--OCEAN, #404BBF);
-color: var(--WHITE, #FFF);
-
+background: var(--brand-color);
+color: var(--body-color);
 }
