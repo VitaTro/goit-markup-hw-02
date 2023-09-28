@@ -69,6 +69,13 @@ color: var(--body-color);
 }
 .contact {
     font-style: normal;
+  line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-section);
+    text-decoration: none;
+}
+.contact:hover .contact:active{
+    color: var(--hover-menu);
 }
 .menu {
     font-weight: 500;
