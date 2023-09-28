@@ -41,7 +41,7 @@ font-size: 1.125rem;
 letter-spacing: 0.03375rem;
 font-weight: 800;
 text-transform: uppercase;
-  line-height: 1.17rem;
+  line-height: 1.17;
 }
 .studio {
     color: var(--primary-color);
