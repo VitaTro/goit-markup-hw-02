@@ -5,24 +5,20 @@ font-family: 'Roboto', sans-serif;
     background: var(--WHITE, #FFF);
 }
 .webstudio {
-    color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway, sans-serif;
+    color: var(--IRIS, #4D5AE5);
+font-family: Raleway,sans-serif;
 font-size: 1.125rem;
 font-style: normal;
 font-weight: 800;
 letter-spacing: 0.03375rem;
 text-transform: uppercase;
 }
-.web {
-    color: var(--IRIS, #4D5AE5);
-    font-family: Raleway, sans-serif;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 800;
-    letter-spacing: 0.03375rem;
-    text-transform: uppercase;
+.studio {
+    color: var(--NAVY-BLUE, #2E2F42);
 }
-a {
+.studio-light {
+    color: var(--WHITE, #FFF); 
+}
     text-decoration: none;
 } 
 ul{
