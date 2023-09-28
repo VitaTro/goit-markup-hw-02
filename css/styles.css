@@ -19,8 +19,6 @@ text-transform: uppercase;
 .studio-light {
     color: var(--WHITE, #FFF); 
 }
-    text-decoration: none;
-} 
 ul{
     list-style: none;
 }
@@ -37,7 +35,6 @@ font-weight: 500;
 letter-spacing: 0.04rem;
 }
 .menu {
-    text-decoration: none;
     color: var(--NAVY-BLUE, #2E2F42);
 font-size: 1rem;
 font-style: normal;
