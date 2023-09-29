@@ -38,6 +38,9 @@ font-weight: 800;
 text-transform: uppercase;
   line-height: 1.17;
 }
+.web {
+    text-decoration: none;
+}
 .studio {
     color: var(--primary-color);
 }
@@ -77,6 +80,9 @@ color: var(--body-color);
 .contact:hover .contact:active{
     color: var(--hover-menu);
 }
+.phone .mail {
+        text-decoration: none;
+    }
 .menu {
     font-weight: 500;
     font-size: 16px;
