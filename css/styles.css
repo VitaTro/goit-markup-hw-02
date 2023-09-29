@@ -151,3 +151,16 @@ letter-spacing: 0.02em;
 .portfolio-list {
     list-style: none;
 }
+.app-phone-header {
+    color:var(--primary-color)
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.app-phone-text {
+    color: var(--main-section);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
