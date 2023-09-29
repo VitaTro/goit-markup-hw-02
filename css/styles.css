@@ -16,7 +16,7 @@
 .link {
     text-decoration: none;
 }
-. nav-header {
+.nav-header {
     list-style: none;
 }
 .text {
@@ -47,6 +47,7 @@ font-weight: 800;
 text-transform: uppercase;
 letter-spacing: 0.03375rem;
 line-height: 1.17;
+
 }
 .web-text {
     text-decoration: none;
@@ -74,9 +75,7 @@ line-height: 1.5rem;
 letter-spacing: 0.04rem;
 cursor: pointer;
 }
-.button:hover {
-    background-color: var(--hover-menu);
-}
+.button:hover,
 .button:active {
     background-color: var(--hover-menu);
 }
@@ -92,8 +91,14 @@ cursor: pointer;
 .portfolio-button {
     background: var(--contact-color);
     color:var(--brand-color)
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
-.portfolio-button:hover {
+.portfolio-button:hover,
+.portfolio-button:active {
 background: var(--brand-color);
 color: var(--body-color);
 }
@@ -104,13 +109,12 @@ color: var(--body-color);
     color: var(--main-section);
     font-weight: 400;
 }
-    .phone .mail {
+    .phone, 
+    .mail {
         text-decoration: none;
     }
 
-.contact:hover {
-    color: var(--hover-menu);
-}
+.contact:hover,
 .contact:active {
     color: var(--hover-menu);
 }
@@ -122,9 +126,7 @@ color: var(--body-color);
     letter-spacing: 0.02em;
     color: var(--primary-color);
 }
-.nav-menu:hover {
-    background: var(--hover-menu);
-}
+.nav-menu:hover,
 .nav-menu:active {
     background: var(--hover-menu);
 }
@@ -147,4 +149,7 @@ letter-spacing: 0.02em;
 }
 .your-team {
     background-color:var(--body-color)
+}
+.portfolio-list {
+    list-style: none;
 }
