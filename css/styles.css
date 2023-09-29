@@ -14,7 +14,9 @@
 .link {
     text-decoration: none;
 }
-
+. nav-header {
+    list-style: none;
+}
 .text {
     font-weight: 400;
     color: var(--main-section);
@@ -92,4 +94,17 @@ color: var(--body-color);
 }
 .menu:hover {
 color: var(--hover-menu);
+}
+.nav-menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+.nav-menu:hover {
+    background: var(--hover-menu);
+}
+.nav-menu:active {
+    background: var(--hover-menu);
 }
