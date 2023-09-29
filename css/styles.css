@@ -1,4 +1,3 @@
-
 :root {
   --main-section:var(--SLATE, #434455);
   --brand-color: var(--IRIS, #4D5AE5);
@@ -47,7 +46,6 @@ font-weight: 800;
 text-transform: uppercase;
 letter-spacing: 0.03375rem;
 line-height: 1.17;
-
 }
 .web-text {
     text-decoration: none;
