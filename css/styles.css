@@ -95,7 +95,7 @@ cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em; 
 }
-p {font-family: "Roboto", sans-serif;
+.button-type {font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -103,10 +103,10 @@ p {font-family: "Roboto", sans-serif;
     background: var(--cloud-color);
     color:var(--iris-color);
 }
-p:hover {
+.button-type:hover {
     color: var(--white-color);
 }
-p:focus {
+.button-type:focus {
     color: var(--white-color);
 }
 
