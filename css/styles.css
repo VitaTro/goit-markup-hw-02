@@ -47,9 +47,7 @@ text-transform: uppercase;
 letter-spacing: 0.03em;
 line-height: 1.17;
 }
-.web-text {
-    text-decoration: none;
-}
+
 .studio {
     color: var(--navy-blue-color);
 }
