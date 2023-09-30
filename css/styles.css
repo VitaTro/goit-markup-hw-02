@@ -134,10 +134,10 @@ color: var(--white-color);
 }
 
 .header-nav:hover {
-    background:var(--moderate-blue-color);
+    color:var(--moderate-blue-color);
 }
 .header-nav:focus {
-    background:var(--moderate-blue-color);
+    color:var(--moderate-blue-color);
 }
 .menu:hover {
 color:var(--moderate-blue-color);
@@ -153,9 +153,7 @@ letter-spacing: 0.02em;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.team {
-    background-color:var(--cloud-color);
-}
+
 .your-team {
     background-color:var(--white-color);
 }
@@ -177,4 +175,8 @@ letter-spacing: 0.02em;
 }
 .address {
     font-style: normal;
+}
+.head-team {
+    background-color: var(--cloud-color);
+
 }
