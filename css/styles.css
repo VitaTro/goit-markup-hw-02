@@ -1,36 +1,36 @@
 
 :root {
-  --main-section:var(--SLATE, #434455);
-  --brand-color: var(--IRIS, #4D5AE5);
-  --body-color:var(--WHITE, #FFF);
-    --primary-color:var(--NAVY-BLUE, #2E2F42);
-    --contact-color: var(--CLOUD, #F4F4FD);
-    --hover-menu:var(#404bbf); 
+  --slate-color:var(--SLATE, #434455);
+  --iris-color: var(--IRIS, #4D5AE5);
+  --white-color:var(--WHITE, #FFF);
+    --navy-blue-color:var(--NAVY-BLUE, #2E2F42);
+    --cloud-color: var(--CLOUD, #F4F4FD);
+    --moderate-blue-color:var(--MODERATE-BLUE, #404BBF); 
 } 
 
 .title {
-    color: var(--primary-color);
+    color: var(--navy-blue-color);
     font-weight: 500;
     font-style: normal;
 }
 .link {
     text-decoration: none;
 }
-.nav-header {
+.list {
     list-style: none;
 }
 .text {
     font-weight: 400;
-    color: var(--main-section);
+    color: var(--slate-color);
     font-style: normal;
 }
 .text-footer {
-    color: var(--contact-color);
+    color: var(--cloud-color);
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
 }
 .head-title {
-    color: var(--primary-color);
+    color: var(--navy-blue-color);
     font-weight: 700;
     font-style: normal;
     font-size: 36px;
@@ -39,35 +39,34 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.webstudio {
-    color: var(--brand-color);
+.web-studio {
+    color: var(--iris-color);
 font-family: Raleway, sans-serif;
 font-size: 1.125rem;
 font-weight: 800;
 text-transform: uppercase;
 letter-spacing: 0.03375rem;
 line-height: 1.17;
-
 }
 .web-text {
     text-decoration: none;
 }
 .studio {
-    color: var(--primary-color);
+    color: var(--navy-blue-color);
 }
 .footer-studio {
-    color: var(--contact-color);
+    color: var(--cloud-color);
 }
 .footer {
-    background: var(--primary-color);
+    background: var(--navy-blue-color);
 
 }
 .item {
-background-color: var(--main-section);
+background-color: var(--slate-color);
 }
 .button {
-background-color: var(--brand-color);
-color: var(--body-color);
+background-color: var(--iris-color);
+color: var(--white-color);
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
@@ -77,10 +76,10 @@ cursor: pointer;
 }
 .button:hover,
 .button:active {
-    background-color: var(--hover-menu);
+    background-color: var(--moderate-blue-color);
 }
 .headline-main {
-    color: var(--body-color);
+    color: var(--white-color);
     font-weight: 700;
     font-style: normal;
     font-size: 56px;
@@ -89,8 +88,8 @@ cursor: pointer;
     letter-spacing: 0.02em;
 }
 .portfolio-button {
-    background: var(--contact-color);
-    color:var(--brand-color)
+    background: var(--cloud-color);
+    color:var(--iris-color);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -99,14 +98,14 @@ cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:active {
-background: var(--brand-color);
-color: var(--body-color);
+background: var(--iris-color);
+color: var(--white-color);
 }
 .contact {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-section);
+    color:var(--slate-color);
     font-weight: 400;
 }
     .phone, 
@@ -116,7 +115,7 @@ color: var(--body-color);
 
 .contact:hover,
 .contact:active {
-    color: var(--hover-menu);
+    color:var(--moderate-blue-color);
 }
 
 .nav-menu {
@@ -124,14 +123,14 @@ color: var(--body-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-color);
+    color:var(--navy-blue-color);
 }
 .nav-menu:hover,
 .nav-menu:active {
-    background: var(--hover-menu);
+    background:var(--moderate-blue-color);
 }
 .menu:hover {
-color: var(--hover-menu);
+color:var(--moderate-blue-color);
 }
 .strategy-header {
     font-size: 20px;
@@ -145,11 +144,24 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .team {
-    background-color: var(--contact-color);
+    background-color:var(--cloud-color);
 }
 .your-team {
-    background-color:var(--body-color)
+    background-color:var(--white-color)
 }
 .portfolio-list {
     list-style: none;
+}
+.app-phone-header {
+    color:var(--navy-blue-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.app-phone-text {
+    color:var(--slate-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
