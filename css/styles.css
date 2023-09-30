@@ -59,7 +59,7 @@ line-height: 1.17;
 
 }
 .item {
-background-color: var(--slate-color);
+background-color: var(--navy-blue-color);
 }
 .button {
 background-color: var(--iris-color);
@@ -132,6 +132,7 @@ color: var(--white-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .header-nav:hover {
     background:var(--moderate-blue-color);
 }
