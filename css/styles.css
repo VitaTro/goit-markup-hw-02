@@ -73,7 +73,9 @@ line-height: 1.5rem;
 letter-spacing: 0.04rem;
 cursor: pointer;
 }
-.button:hover,
+.button:hover {
+    background-color: var(--moderate-blue-color);
+}
 .button:focus {
     background-color: var(--moderate-blue-color);
 }
@@ -93,9 +95,19 @@ cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04em; 
 }
-.portfolio-button:hover,
+.portfolio-button-all:hover {
+    background-color:var(--moderate-blue-color);
+}
+.portfolio-button-all:focus {
+    background-color:var(--moderate-blue-color);
+    cursor: pointer;
+}
+.portfolio-button:hover {
+    background: var(--iris-color);
+    color: var(--white-color);
+    }
 .portfolio-button:focus {
 background: var(--iris-color);
 color: var(--white-color);
@@ -108,20 +120,24 @@ color: var(--white-color);
     font-weight: 400;
 }
 
-.contact:hover,
+.contact:hover {
+    color:var(--moderate-blue-color);
+}
 .contact:focus {
     color:var(--moderate-blue-color);
 }
 
-.nav-menu {
+.header-nav {
+    color:var(--navy-blue-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--navy-blue-color);
 }
-.nav-menu:hover,
-.nav-menu:focus {
+.header-nav:hover {
+    background:var(--moderate-blue-color);
+}
+.header-nav:focus {
     background:var(--moderate-blue-color);
 }
 .menu:hover {
@@ -142,7 +158,7 @@ letter-spacing: 0.02em;
     background-color:var(--cloud-color);
 }
 .your-team {
-    background-color:var(--white-color)
+    background-color:var(--white-color);
 }
 .portfolio-list {
     list-style: none;
