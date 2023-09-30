@@ -41,10 +41,10 @@
 .web-studio {
     color: var(--iris-color);
 font-family: Raleway, sans-serif;
-font-size: 1.125rem;
+font-size: 18px;
 font-weight: 800;
 text-transform: uppercase;
-letter-spacing: 0.03375rem;
+letter-spacing: 0.03em;
 line-height: 1.17;
 }
 .web-text {
@@ -74,7 +74,7 @@ letter-spacing: 0.04rem;
 cursor: pointer;
 }
 .button:hover,
-.button:active {
+.button:focus {
     background-color: var(--moderate-blue-color);
 }
 .headline-main {
@@ -96,7 +96,7 @@ cursor: pointer;
     letter-spacing: 0.04em;
 }
 .portfolio-button:hover,
-.portfolio-button:active {
+.portfolio-button:focus {
 background: var(--iris-color);
 color: var(--white-color);
 }
@@ -107,13 +107,9 @@ color: var(--white-color);
     color:var(--slate-color);
     font-weight: 400;
 }
-    .phone, 
-    .mail {
-        text-decoration: none;
-    }
 
 .contact:hover,
-.contact:active {
+.contact:focus {
     color:var(--moderate-blue-color);
 }
 
@@ -125,7 +121,7 @@ color: var(--white-color);
     color:var(--navy-blue-color);
 }
 .nav-menu:hover,
-.nav-menu:active {
+.nav-menu:focus {
     background:var(--moderate-blue-color);
 }
 .menu:hover {
@@ -163,4 +159,7 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.address {
+    font-style: normal;
 }
