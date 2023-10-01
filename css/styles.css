@@ -103,6 +103,7 @@ cursor: pointer;
     letter-spacing: 0.04em; 
     background: var(--cloud-color);
     color:var(--iris-color);
+    cursor: pointer;
 }
 .button-type:hover {
     color: var(--white-color);
